@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".searchFragment"
+    android:background="@color/white"
+    >
+
+
+    <android.widget.SearchView
+        android:id="@+id/searchBar"
+        android:layout_width="340dp"
+        android:layout_height="65dp"
+        android:background="@drawable/roundedcornersdark"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="80sp"
+        android:layout_marginTop="5sp"
+        app:searchHintIcon="@color/lavender"
+        android:layout_marginBottom="400sp"
+        />
+    <ImageButton
+        android:id="@+id/imageSearchBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/image_search_icon"
+        android:background="@drawable/roundedcornersdark"
+        android:layout_marginLeft="290sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginTop="12sp"
+        android:layout_marginBottom="400sp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/voiceSearchBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="240sp"
+        android:layout_marginTop="12sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginBottom="400sp"
+        android:background="@drawable/roundedcornersdark"
+        app:srcCompat="@drawable/voice_search_icon" />
+    <ListView
+        android:id="@+id/searchProductsList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="80sp"
+        android:layout_marginRight="5sp"/>
+
+</FrameLayout>

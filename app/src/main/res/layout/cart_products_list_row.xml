@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:id="@+id/productImageCV"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        app:srcCompat="@drawable/highwaistwidelegpants"
+        />
+
+    <TextView
+        android:id="@+id/productNameCV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110sp"
+        android:layout_marginTop="25sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginBottom="5sp"
+        android:text="Brown Highwaist"
+        android:textColor="@color/eggplant"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/productPriceCV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330sp"
+        android:layout_marginTop="60sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginBottom="5sp"
+        android:text="400 L.E"
+        android:textColor="@color/eggplant"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/productQuantityUnitsCV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110sp"
+        android:layout_marginTop="60sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginBottom="5sp"
+        android:text="Units: "
+        android:textColor="@color/lavender"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/productQuantityCV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170sp"
+        android:layout_marginTop="60sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginBottom="5sp"
+        android:text="2"
+        android:textColor="@color/eggplant"
+        android:textSize="20sp" />
+
+</RelativeLayout>

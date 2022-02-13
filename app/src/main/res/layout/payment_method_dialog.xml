@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/roundedcornerslight">
+
+    <RadioGroup
+        android:id="@+id/paymentMethodRadio"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginBottom="10sp">
+
+        <RadioButton
+            android:id="@+id/cashRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Pay in cash"
+            android:textColor="@color/eggplant"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/visaRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pay with credit card"
+            android:textColor="@color/eggplant"
+            android:textSize="22sp" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/creditCardNumberTxt"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="110sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/roundedcorners"
+        android:hint="Credit Card Number"
+        android:textAlignment="center"
+        android:textColor="@color/eggplant"
+        android:textColorHint="@color/lavender"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/savePaymentInfoBtn"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="180sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/roundedcornersdark"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

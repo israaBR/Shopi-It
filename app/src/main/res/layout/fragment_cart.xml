@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cartFragment"
+    android:background="@color/white"
+    >
+
+    <ListView
+        android:id="@+id/cartProductsLV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="285dp" />
+
+    <Button
+        android:id="@+id/confirmOrderbtn"
+        android:layout_width="351dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="570sp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="0sp"
+        android:background="@drawable/roundedcornersdark"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Confirm Order"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/totalP"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="510sp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="0sp"
+        android:text="Total Price:"
+        android:textColor="@color/eggplant"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/totalPricetxt"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="510sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="0sp"
+        android:gravity="center_horizontal"
+        android:text="0 L.E"
+        android:textAlignment="center"
+        android:textColor="@color/eggplant"
+        android:textColorHighlight="@color/eggplant"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/paymentMethod"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="510sp"
+        android:layout_marginRight="5dp"
+        android:text="Payment method"
+        android:textAlignment="center"
+        android:textColor="@color/eggplant"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/chooseDeliveryAddress"
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="450sp"
+        android:layout_marginRight="10dp"
+        android:text="Choose delivery address"
+        android:textAlignment="center"
+        android:textColor="@color/eggplant"
+        android:textSize="20sp" />
+
+</RelativeLayout>

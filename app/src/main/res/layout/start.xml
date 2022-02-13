@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:background="@color/eggplant" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="403dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:text="Welcome to shope-it"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="287dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center_horizontal"
+        android:text="where everything is in one place"
+        android:textAlignment="center"
+        android:textColor="@color/lavender"
+        android:textSize="18sp"
+        android:layout_marginTop="170dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="330dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/roundedcorners"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@color/eggplant"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="330dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/roundedcorners"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="@color/eggplant"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>

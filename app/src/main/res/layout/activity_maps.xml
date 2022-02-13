@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="400dp"
+        android:layout_height="450dp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="5sp" />
+
+    <TextView
+        android:id="@+id/currentLocationTxt"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="505sp"
+        android:layout_marginRight="5sp"
+        android:background="@drawable/roundedcorners"/>
+
+    <Button
+        android:id="@+id/getCurrentLocationBtn"
+        android:layout_width="140sp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="255sp"
+        android:layout_marginTop="505sp"
+        android:layout_marginRight="5sp"
+        android:text="Get current location"
+        android:textColor="@color/eggplant"
+        android:background="@drawable/roundedcorners"/>
+
+    <Button
+        android:id="@+id/saveLocationBtn"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="570sp"
+        android:layout_marginRight="5sp"
+        android:background="@drawable/roundedcornersdark"
+        android:text="save location"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

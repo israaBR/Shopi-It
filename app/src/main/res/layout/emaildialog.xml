@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/roundedcornerslight">
+
+    <TextView
+        android:id="@+id/emailDialogTitle"
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Forgot password?"
+        android:textColor="@color/eggplant"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/emailDialogMsg"
+        android:layout_width="351dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Enter your email to proceed with password reset steps"
+        android:textColor="@color/eggplant"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/emailEmailDialog"
+        android:layout_width="351dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/roundedcornerstext"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="  your email here"
+        android:inputType="textPersonName"
+        android:textColor="@color/eggplant"
+        android:textColorHint="@color/eggplant"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/proceedbtn"
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/roundedcornersdark"
+        android:text="Proceed"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

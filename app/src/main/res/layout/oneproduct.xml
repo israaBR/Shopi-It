@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/productImageOP"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        tools:srcCompat="@drawable/darkgreenbeltedshirtdress" />
+
+    <TextView
+        android:id="@+id/productNameOP"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="360sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginBottom="100sp"
+        android:text="Dark green dress"
+        android:textAlignment="viewStart"
+        android:textColor="@color/eggplant"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/productPriceOP"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="260sp"
+        android:layout_marginTop="365sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginBottom="100sp"
+        android:text="400 L.E"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/lavender"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="415sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginBottom="100sp"
+        android:text="From "
+        android:textColor="@color/lavender"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/productCategoryOP"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="415sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginBottom="100sp"
+        android:text="Women Wear"
+        android:textColor="@color/eggplant"
+        android:textSize="20sp" />
+
+
+    <ImageButton
+        android:id="@+id/quantityPlusBtn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="410sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginBottom="100sp"
+        android:background="@drawable/roundedcornersdark"
+        app:srcCompat="@drawable/plus_one_icon" />
+
+    <TextView
+        android:id="@+id/productQuantityOP"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="415sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginBottom="100sp"
+        android:text="1"
+        android:textAlignment="center"
+        android:textColor="@color/eggplant"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/quantityMinusBtn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="410sp"
+        android:layout_marginRight="15sp"
+        android:background="@drawable/roundedcornersdark"
+        app:srcCompat="@drawable/minus_one_icon" />
+
+
+    <Button
+        android:id="@+id/addToCartBtnOP"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="550sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginBottom="100sp"
+        android:background="@drawable/roundedcorners"
+        android:text="Add product to your cart"
+        android:textColor="@color/eggplant"
+        android:textSize="20sp" />
+</RelativeLayout>

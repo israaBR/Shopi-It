@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="310dp"
+        android:layout_height="111dp"
+        android:fontFamily="serif"
+        android:text="Personal information"
+        android:visibility="gone"
+        android:textColor="@color/eggplant"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="388dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Username:"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/eggplant"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nameTxtPIV"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Israa Abdelaal"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/eggplant"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="388dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Birthdate:"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/eggplant"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/birthdateTxtPIV"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="06/09/2000"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/eggplant"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="388dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Address:"
+        android:visibility="gone"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/eggplant"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/addressTxtPIV"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Cairo, Egypt"
+        android:visibility="gone"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/eggplant"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="388dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Mobile number:"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/eggplant"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mobileTxtPIV"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="01000000000"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/eggplant"
+        android:textSize="22sp" />
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="388dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Email:"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/eggplant"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/emailTxtPIV"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Israa.Abdelaal@gmail.com"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/eggplant"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/editBtnPIV"
+        android:layout_width="324dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="465dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/roundedcornersdark"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Edit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25sp"/>
+
+
+</RelativeLayout>

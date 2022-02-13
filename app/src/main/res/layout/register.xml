@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <EditText
+        android:id="@+id/userNameTxtReg"
+        android:layout_width="351dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/roundedcornerstext"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="  enter your username"
+        android:inputType="textPersonName"
+        android:textColor="@color/eggplant"
+        android:textColorHint="@color/eggplant"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/emailTxtReg"
+        android:layout_width="351dp"
+        android:layout_height="61dp"
+        android:background="@drawable/roundedcornerstext"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="  enter your email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/eggplant"
+        android:textColorHint="@color/eggplant"
+        android:textSize="20sp"
+        android:layout_marginTop="210dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+
+    <EditText
+        android:id="@+id/passTxtReg"
+        android:layout_width="351dp"
+        android:layout_height="61dp"
+        android:background="@drawable/roundedcornerstext"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="  enter your password"
+        android:inputType="textPassword"
+        android:textColor="@color/eggplant"
+        android:textColorHint="@color/eggplant"
+        android:textSize="20sp"
+        android:layout_marginTop="280dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <EditText
+        android:id="@+id/confirmPassTxtReg"
+        android:layout_width="351dp"
+        android:layout_height="61dp"
+        android:background="@drawable/roundedcornerstext"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="  confirm password"
+        android:inputType="textPassword"
+        android:textColor="@color/eggplant"
+        android:textColorHint="@color/eggplant"
+        android:textSize="20sp"
+        android:layout_marginTop="350dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+
+    <Button
+        android:id="@+id/registerBtnReg"
+        android:layout_width="351dp"
+        android:layout_height="61dp"
+        android:background="@drawable/roundedcornersdark"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginTop="470dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="280dp"
+        android:layout_height="36dp"
+        android:gravity="center_horizontal"
+        android:text="Already have an account?"
+        android:textAlignment="center"
+        android:textColor="@color/lavender"
+        android:textSize="18sp"
+        android:layout_marginTop="570dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="50dp"
+        />
+
+    <TextView
+        android:id="@+id/loginReg"
+        android:layout_width="104dp"
+        android:layout_height="67dp"
+        android:gravity="center_horizontal"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@color/eggplant"
+        android:textSize="18sp"
+        android:layout_marginTop="570dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginRight="50dp"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="235dp"
+        android:layout_height="68dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center_horizontal"
+        android:text="Create"
+        android:textAlignment="center"
+        android:textColor="@color/eggplant"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="187dp"
+        android:layout_height="61dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center_horizontal"
+        android:text="Account"
+        android:textAlignment="center"
+        android:textColor="@color/eggplant"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="25dp"/>
+
+</RelativeLayout>
